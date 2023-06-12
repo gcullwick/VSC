@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {color: rgb(218, 2, 218);font-family: Helvetica; font-size:xx-large; font-weight: 400;}
+        p {color:blueviolet; font-family: Helvetica; font-size: medium; font-weight: 200;}
+    </style>
+    <link rel="stylesheet" href="CSS.css" />
+</head>
+
+<body style="background-color:rgb(255, 255, 100">
+    <h1>Let us begin</h1>
+    <br>
+    <p>This text should be lighter and smaller and changes as I type.</p>
+    <p>More text.</p>
+</body>
+
+</html>
