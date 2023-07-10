@@ -1,0 +1,141 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik Dirt', cursive;*/
+body {
+  width: 100vw;
+}
+
+.navDiv {
+  position: relative;
+  width: 100vw;
+}
+
+.mountains {
+  width: vmax;
+  margin-bottom: 100px;
+}
+
+.logo {
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.mountains {
+  z-index: 0;
+}
+
+.headingsDiv {
+  color: white;
+  font-family: 'Rubik Dirt', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.thick {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.chevron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.navItem {
+  padding: 30px;
+}
+
+.display-4 {
+  text-align: center;
+}
+
+.sectionHeader {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.largeText {
+  font-weight: 500;
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 64px;
+  color: #ff9900
+}
+
+.row {
+  width: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  max-height: 20vh;
+  position: relative;
+}
+
+.card-body {
+  z-index: 100;
+}
+
+
+.bridge {
+  position: relative;
+
+}
+
+.formStuff {
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transform: translate(100%, -180%);
+  bottom: 0;
+}
+
+.signUp {
+  font-weight: 500;
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 64px;
+  color: #ff9900
+}
+
+.signUpSmall {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+.form-group {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.form-text {
+  color: black !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.yellowBtn {
+  background-color: #ff9900;
+  border: none;
+}
